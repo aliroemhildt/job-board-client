@@ -9,8 +9,6 @@ function JobDetail() {
   useEffect(() => {
     getJob(jobId).then(setJob);
   }, [jobId]);
-
-  console.log(job)
   
   if (!job) {
     return <p>Loading...</p>;
