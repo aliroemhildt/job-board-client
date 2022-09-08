@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
-import { companies } from '../fake-data';
 import { getCompany } from '../graphql/queries';
 
 function CompanyDetail() {
