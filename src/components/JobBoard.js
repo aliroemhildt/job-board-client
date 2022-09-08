@@ -9,7 +9,6 @@ function JobBoard() {
     getJobs().then(setJobs);
   }, []);
 
-  console.log('[JobBoard] jobs:', jobs);
   return (
     <div>
       <h1 className="title">
